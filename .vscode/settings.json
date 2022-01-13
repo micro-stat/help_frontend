@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "src\\.nuxt": true,
+    ".vscode": true,
+    "src\\node_modules": true,
+    ".editorconfig": true,
+    ".eslintcache": true,
+    ".eslintrc.js": true,
+    ".gitignore": true,
+    "yarn.lock": true,
+    "node_modules": true,
+    ".nuxt": true
+  }
+}

@@ -37,6 +37,7 @@ h4 {
 
 a {
   display: block;
+  padding: 2px 5px;
   text-decoration: none;
 
   &:hover {

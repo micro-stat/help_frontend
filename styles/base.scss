@@ -5,7 +5,7 @@ html {
   font-size: 16px;
   background-color: $color-1;
   color: white;
-  user-select: none;
+  word-spacing: 0.5px;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -24,6 +24,23 @@ p, a, h5 {
   font-size: 1rem;
 }
 
+h2, h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul, ol {
+  margin-bottom: 15px;
+
+  li {
+    margin-bottom: 5px;
+  }
+}
+
 a {
   color: white;
 }
@@ -37,4 +54,12 @@ code {
   user-select: text;
   cursor: text;
   padding: 5px;
+}
+
+.nuxt-content-highlight {
+  margin-bottom: 30px;
+  pre {
+    background-color: $color-4;
+    color: white;
+  }
 }

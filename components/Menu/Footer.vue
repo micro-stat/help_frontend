@@ -61,7 +61,7 @@
 
 .c-footer-inner {
   min-height: 400px;
-  width: 1000px;
+  width: 1200px;
   padding: 40px 10px;
   max-width: 90vw;
   margin: 0 auto;

@@ -2,6 +2,7 @@
   <div class="c-sideNavigator">
     <h4>Knowledgebase</h4>
     <ul>
+      <li><nuxt-link to="/knowledgebase/integrations">Integrations</nuxt-link></li>
       <li><nuxt-link to="/knowledgebase/api-documentation">API Documentation</nuxt-link></li>
       <li><nuxt-link to="/knowledgebase/javascript-sdk">Javascript SDK</nuxt-link></li>
     </ul>

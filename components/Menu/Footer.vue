@@ -19,7 +19,7 @@
 
           <a href="https://www.micro-stat.com/features">Features</a>
           <a href="https://www.micro-stat.com/pricing">Pricing</a>
-          <nuxt-link to="knowledgebase/integrations">Integrations</nuxt-link>
+          <nuxt-link to="/knowledgebase/integrations">Integrations</nuxt-link>
         </div>
 
         <div class="c-footer-category">

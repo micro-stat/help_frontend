@@ -5,6 +5,16 @@
       <li><nuxt-link to="/knowledgebase/api-documentation">API Documentation</nuxt-link></li>
       <li><nuxt-link to="/knowledgebase/javascript-sdk">Javascript SDK</nuxt-link></li>
     </ul>
+
+    <h4>Misc</h4>
+    <ul>
+      <li><nuxt-link to="/misc/faq">FAQ</nuxt-link></li>
+    </ul>
+
+    <h4>Blog</h4>
+    <ul>
+      <li><nuxt-link to="/blog/index">Welcome to micro stat</nuxt-link></li>
+    </ul>
   </div>
 </template>
 
@@ -35,5 +45,6 @@ a {
 
 ul {
   padding-left: 20px;
+  margin-bottom: 20px;
 }
 </style>

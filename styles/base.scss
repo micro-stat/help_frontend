@@ -11,6 +11,9 @@ html {
 
 h1 {
   font-size: 2.5rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid $color-4;
+  margin-bottom: 20px;
 
   @media (max-width: $width-ipad-air-landscape) {
     font-size: 2rem;

@@ -5,8 +5,12 @@
     </a>
 
     <div class="c-header-links">
+      <a to="https://www.micro-stat.com">
+        Homepage
+      </a>
+
       <a to="https://www.portal.micro-stat.com">
-        Sign In
+        Dashboard
       </a>
     </div>
   </div>
@@ -38,6 +42,7 @@
       text-decoration: none;
       margin-right: 30px;
       padding: 10px;
+      cursor: pointer;
 
       &:hover {
         text-decoration: underline;

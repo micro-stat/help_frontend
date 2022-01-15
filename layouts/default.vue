@@ -1,8 +1,11 @@
 <template>
   <div>
     <Menu-Header />
-    <Common-Page>
-      <nuxt />
+    <Common-Page is-flex>
+      <Common-PageContent>
+        <nuxt />
+      </Common-PageContent>
+      <Menu-SideNavigator />
     </Common-Page>
     <Menu-Footer />
   </div>

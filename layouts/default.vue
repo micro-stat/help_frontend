@@ -1,7 +1,10 @@
 <template>
   <div>
-    <h1>Layout</h1>
-    <nuxt />
+    <Menu-Header />
+    <Common-Page>
+      <nuxt />
+    </Common-Page>
+    <Menu-Footer />
   </div>
 </template>
 

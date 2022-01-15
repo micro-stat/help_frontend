@@ -17,8 +17,24 @@ export default {
   components: true,
 
   buildModules: [
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/fontawesome',
+    '@nuxtjs/google-fonts'
   ],
+
+  googleFonts: {
+    families: {
+      Quicksand: true
+    }
+  },
+
+  fontawesome: {
+    icons: {
+      solid: true,
+      brands: true,
+      regular: true
+    }
+  },
 
   modules: [
     '@nuxtjs/pwa',

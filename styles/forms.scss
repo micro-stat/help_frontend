@@ -1,0 +1,50 @@
+@import './variables.scss';
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, button {
+  font-family: "Quicksand", "sans-serif";
+}
+
+input[type="text"] {
+  background-color: $color-4;
+  padding: 15px;
+  width: 600px;
+  max-width: 100%;
+  border: 0;
+  outline: none;
+  margin: 10px 0;
+  color: white;
+  font-size: 1rem;
+}
+
+button {
+  background-color: $color-2;
+  padding: 15px 20px;
+  border: 0;
+  outline: none;
+  margin: 10px 0;
+  color: white;
+  font-size: 1rem;
+  margin-right: 10px;
+  cursor: pointer;
+
+  &.u-button--primary {
+    background-color: $color-1;
+  }
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #301C6D;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #301C6D;
+}
+
+::placeholder {
+  color: #301C6D;
+}

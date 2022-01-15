@@ -11,7 +11,7 @@
 .c-sideNavigator {
   background-color: $color-3;
   min-height: 400px;
-  width: 300px;
+  min-width: 400px;
   padding: 30px 30px;
 }
 

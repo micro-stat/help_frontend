@@ -1,7 +1,10 @@
 <template>
   <div class="c-sideNavigator">
     <h4>Knowledgebase</h4>
-    <nuxt-link to="/knowledgebase/api">API Documentation</nuxt-link>
+    <ul>
+      <li><nuxt-link to="/knowledgebase/api-documentation">API Documentation</nuxt-link></li>
+      <li><nuxt-link to="/knowledgebase/javascript-sdk">Javascript SDK</nuxt-link></li>
+    </ul>
   </div>
 </template>
 
@@ -22,10 +25,15 @@ h4 {
 }
 
 a {
+  display: block;
   text-decoration: none;
 
   &:hover {
     text-decoration: underline;
   }
+}
+
+ul {
+  padding-left: 20px;
 }
 </style>

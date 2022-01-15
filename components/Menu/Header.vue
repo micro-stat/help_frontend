@@ -5,11 +5,11 @@
     </a>
 
     <div class="c-header-links">
-      <a to="https://www.micro-stat.com">
+      <a href="https://www.micro-stat.com">
         Homepage
       </a>
 
-      <a to="https://www.portal.micro-stat.com">
+      <a href="https://www.portal.micro-stat.com">
         Dashboard
       </a>
     </div>

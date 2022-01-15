@@ -17,9 +17,9 @@
             Sign In
           </a>
 
-          <a href="#">Features</a>
-          <a href="#">Integrations</a>
-          <a href="#">Pricing</a>
+          <a href="https://www.micro-stat.com/features">Features</a>
+          <a href="https://www.micro-stat.com/pricing">Pricing</a>
+          <nuxt-link to="knowledgebase/integrations">Integrations</nuxt-link>
         </div>
 
         <div class="c-footer-category">
@@ -28,9 +28,9 @@
               :icon="['fas', 'building']" />
             <span>Company</span>
           </h4>
-          <a href="#">About Us</a>
-          <a href="#">Github</a>
-          <a href="#">Blog Posts</a>
+          <a href="https://www.micro-stat.com/about-us">About Us</a>
+          <a href="https://github.com/micro-stat">Github</a>
+          <nuxt-link to="blog/index">Blog Posts</nuxt-link>
         </div>
 
         <div class="c-footer-category">
@@ -39,9 +39,8 @@
               :icon="['fas', 'life-ring']" />
             <span>Support</span>
           </h4>
-          <a href="#">FAQ</a>
-          <a href="#">Help Centre</a>
-          <a href="#">Contact Us</a>
+          <nuxt-link to="misc/faq">FAQ</nuxt-link>
+          <nuxt-link to="/">Help Centre</nuxt-link>
         </div>
       </div>
     </div>

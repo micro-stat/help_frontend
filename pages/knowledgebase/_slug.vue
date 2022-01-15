@@ -6,6 +6,8 @@
 </template>
 
 <script>
+// import { HitCounter } from 'micro-stat'
+
 export default {
   async asyncData ({ $content, params }) {
     const page = await $content(`knowledgebase/${params.slug}`).fetch()
@@ -13,6 +15,10 @@ export default {
     return {
       page
     }
+  },
+
+  mounted () {
+    // new HitCounter(`${this.page.title} Loaded`).publish()
   }
 }
 </script>

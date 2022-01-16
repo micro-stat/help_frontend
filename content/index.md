@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Help Centre
+title: Help Centre
 description: 'Welcome to the micro stat help centre, your source for knowledge and support.'
 ---
 

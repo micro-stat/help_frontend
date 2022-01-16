@@ -62,5 +62,6 @@ code {
     background-color: $color-4;
     color: white;
     text-shadow: none;
+    max-width: calc(100vw - 470px);
   }
 }

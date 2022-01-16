@@ -1,6 +1,6 @@
 ---
-title: Integrations
-description: 'Learn about the integrations we offer.'
+title: What are integrations?
+description: 'Learn about what integrations are and which ones we have.'
 ---
 
 We provide a variety of integrations to make it quick and easy to integrate with micro stat. This page will help you to learn about which integrations we offer for the technology in your app.

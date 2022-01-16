@@ -1,6 +1,6 @@
 <template>
   <article>
-    <h1>Knowledgebase - {{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
     <nuxt-content :document="page" />
   </article>
 </template>

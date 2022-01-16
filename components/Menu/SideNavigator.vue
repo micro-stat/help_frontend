@@ -1,5 +1,5 @@
 <template>
-  <div class="c-sideNavigator">
+  <div class="c-sideNavigator" :class="{ 'c-sideNavigator--visible' : isVisible}">
     <SideNavigator-CategoryHeader title="Knowledgebase" category-name="knowledgebase" icon="book" />
     <template v-if="activeCategory === 'knowledgebase'">
       <h5>Integrate</h5>
@@ -93,7 +93,7 @@
 import { mapState, mapActions } from 'vuex'
 
 export default {
-  computed: mapState('side-navigator', ['activeCategory']),
+  computed: mapState('side-navigator', ['activeCategory', 'isVisible']),
   methods: mapActions('side-navigator', ['setActiveCategory'])
 }
 </script>
@@ -107,6 +107,20 @@ export default {
   min-width: 350px;
   max-height: 800px;
   padding: 30px 30px;
+
+  @media (max-width: $width-ipad-air-portrait) {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+
+    &.c-sideNavigator--visible {
+      display: unset;
+    }
+  }
 }
 
 a {

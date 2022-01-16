@@ -1,10 +1,14 @@
 export const state = () => ({
-  activeCategory: ''
+  activeCategory: '',
+  isVisible: false
 })
 
 export const mutations = {
   setActiveCategory: (state, newCategory) => {
     state.activeCategory = newCategory
+  },
+  setVisibility: (state, isVisible) => {
+    state.isVisible = isVisible
   }
 }
 
@@ -15,5 +19,9 @@ export const actions = {
     } else {
       commit('setActiveCategory', newCategory)
     }
+  },
+
+  setVisibility: ({ state, commit }, isVisible) => {
+    commit('setVisibility', isVisible)
   }
 }

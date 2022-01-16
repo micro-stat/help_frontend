@@ -1,7 +1,7 @@
 <template>
   <div class="c-header">
     <nuxt-link to="/">
-      <img class="c-header-logo" src="~/static/logo.png" width="181" height="50" alt="Site Logo">
+      <img class="c-header-logo" src="~/static/header-logo.png" width="181" height="50" alt="Site Logo">
     </nuxt-link>
 
     <div class="c-header-links u-tabletMobileOnly">

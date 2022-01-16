@@ -1,10 +1,14 @@
 ---
-title: Help Centre
-description: 'Welcome to the micro stat help centre, your source for knowledge and support.'
+title: Welcome to the Help Center
+description: 'Welcome to the micro stat Help Center, your source for knowledge and support.'
 ---
 
-The Help Centre is currently under construction, so bear with us while we build it out fully.
+This is the place to learn more about micro stat, so you can get the most out of it for your app.
 
-<br>
+Please browse our knowledgebase articles for in depth documentation about a variety of topics, and let us know if you think we are missing anything key.
 
-In the meantime if you require any assistance, feel free to email us at help@micro-stat.com
+If you aren't able to answer your query and want to ask us, feel free to Submit a Ticket and we will get back to you.
+
+## Under Development
+
+We are currently working to develop the Help Center, so in the meantime if you have any questions feel free to reach out to us at help@micro-stat.com

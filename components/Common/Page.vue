@@ -10,13 +10,13 @@
 @import '~/styles/variables.scss';
 
 .c-page {
-  background-color: $color-2
+  background-color: $color-3
 }
 
 .c-page-inner {
   display: flex;
   width: $width-default;
-  max-width: 100vw;
+  max-width: 100%;
   margin: 0 auto;
   padding: 40px 20px;
 }

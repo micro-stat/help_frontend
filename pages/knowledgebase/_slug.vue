@@ -6,7 +6,7 @@
 </template>
 
 <script>
-// import { HitCounter } from 'micro-stat'
+import { mapState, mapActions } from 'vuex'
 
 export default {
   async asyncData ({ $content, params }) {
@@ -17,8 +17,14 @@ export default {
     }
   },
 
+  computed: mapState('side-navigator', ['activeCategory']),
+
   mounted () {
-    // new HitCounter(`${this.page.title} Loaded`).publish()
-  }
+    if (this.activeCategory !== 'knowledgebase') {
+      this.setActiveCategory('knowledgebase')
+    }
+  },
+
+  methods: mapActions('side-navigator', ['setActiveCategory'])
 }
 </script>

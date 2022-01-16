@@ -19,5 +19,9 @@
   max-width: 100%;
   margin: 0 auto;
   padding: 40px 20px;
+
+  @media (max-width: $width-ipad-air-portrait) {
+    padding: 30px 20px;
+  }
 }
 </style>

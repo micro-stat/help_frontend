@@ -10,5 +10,9 @@
 .c-pageContent {
   padding: 0 40px;
   flex-grow: 1;
+
+  @media (max-width: $width-ipad-air-portrait) {
+    padding: 0 10px;
+  }
 }
 </style>

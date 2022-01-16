@@ -110,7 +110,7 @@ export default {
 
   @media (max-width: $width-ipad-air-portrait) {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 70px;
     right: 0;
     left: 0;

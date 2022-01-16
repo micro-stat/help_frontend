@@ -29,6 +29,11 @@
           </nuxt-link>
         </li>
         <li>
+          <nuxt-link to="/knowledgebase/what-are-metrics">
+            What are Metrics?
+          </nuxt-link>
+        </li>
+        <li>
           <nuxt-link to="/knowledgebase/configure-thresholds">
             Configure Thresholds
           </nuxt-link>

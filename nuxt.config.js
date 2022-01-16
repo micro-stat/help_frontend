@@ -54,5 +54,9 @@ export default {
 
       return files.map(file => file.path === '/index' ? '/' : file.path)
     }
-  }
+  },
+
+  plugins: [
+    '~/plugins/statistics.client.js'
+  ]
 }

@@ -23,6 +23,8 @@ export default {
     if (this.activeCategory !== 'other') {
       this.setActiveCategory('other')
     }
+
+    new this.$statistics.HitCounter(`${this.page.title} Viewed`).publish()
   },
 
   methods: mapActions('side-navigator', ['setActiveCategory'])

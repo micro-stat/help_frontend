@@ -1,5 +1,7 @@
 <template>
   <div class="c-sideNavigator" :class="{ 'c-sideNavigator--visible' : isVisible}">
+    <Common-LinkButton text="Submit a Ticket" destination="/misc/coming-soon" />
+
     <SideNavigator-CategoryHeader title="Knowledgebase" category-name="knowledgebase" icon="book" />
     <template v-if="activeCategory === 'knowledgebase'">
       <h5>Integrate</h5>
@@ -73,6 +75,11 @@
     <SideNavigator-CategoryHeader title="Other Topics" category-name="other" icon="stream" />
     <template v-if="activeCategory === 'other'">
       <ul>
+        <li>
+          <nuxt-link to="/misc/coming-soon">
+            Submit a Ticket
+          </nuxt-link>
+        </li>
         <li>
           <nuxt-link to="/misc/faq">
             FAQ

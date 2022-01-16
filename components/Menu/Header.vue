@@ -1,8 +1,8 @@
 <template>
   <div class="c-header">
-    <a href="/">
+    <nuxt-link to="/">
       <img class="c-header-logo" src="~/static/logo.png" width="181" height="50" alt="Site Logo">
-    </a>
+    </nuxt-link>
 
     <div class="c-header-links u-tabletMobileOnly">
       <font-awesome-icon

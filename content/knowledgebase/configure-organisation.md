@@ -13,6 +13,8 @@ description: 'Learn how to configure your organisation in micro stat.'
 - We answer this question in more detail here - [Configure Project](/knowledgebase/configure-project)
 
 ## How do I change my organisations name?
+- Note: You must be an administrator for the organisation.
+
 1. Open the micro stat Dashboard
 2. Switch to the Organisation you want to change
 3. Go to the `Settings` page
@@ -21,4 +23,5 @@ description: 'Learn how to configure your organisation in micro stat.'
 6. Enter a new name and then submit the page
 
 ## How do I delete my organisation?
-- It is not currently possible to delete an organisation through the Dashboard, contact us by Submitting a Ticket.
+- It is not currently possible to delete an organisation through the Dashboard.
+- Contact us by Submitting a Ticket and we will be happy to help.

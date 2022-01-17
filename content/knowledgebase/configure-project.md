@@ -6,6 +6,8 @@ description: 'Learn how to configure your projects.'
 Projects are a great way to monitor multiple apps within your organisation. You may want to change aspects of a project periodically so here is how you can do just that.
 
 ## How to change a project's name
+- Note: You must be an administrator for the organisation that the project resides in.
+
 1. Open the micro stat Dashboard
 2. Switch to the Project you want to change
 3. Go to the `Settings` page
@@ -16,6 +18,7 @@ Projects are a great way to monitor multiple apps within your organisation. You 
 
 ## How to delete a project I no longer want
 - Note: We cannot recover deleted projects, remember to update your app to stop sending metrics if you choose to do so.
+- Note: You must be an administrator for the organisation that the project resides in.
 
 1. Open the micro stat Dashboard
 2. Switch to the Project you want to change

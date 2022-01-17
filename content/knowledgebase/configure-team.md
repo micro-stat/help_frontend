@@ -22,6 +22,8 @@ If you are an administrator of an organisation you can invite your team members 
 6. Enter an email address so we can send an invitation to your colleagues inbox
 7. Alternatively send the invitation code to your team member and ask them to `Join an Organisation`
 
+<hr>
+
 ## What if I am invited to join an organisation?
 
 - If you are invited to join an organisation, you should either have an email with a link inside or your colleague will have provided an invitation code
@@ -36,6 +38,8 @@ If you are an administrator of an organisation you can invite your team members 
 2. Go to the `Settings` page
 3. In the `Your Account` section, hit `Join an Organisation`
 4. Enter the invitation code you were provided, we will then add you to your new organisation.
+
+<hr>
 
 ## How can I leave an Organisation?
 - Providing you are not the only administrator of an organisation, you can leave it, doing so will mean you lose access to the projects in that organisation and will need to be invited again if you wish to rejoin.

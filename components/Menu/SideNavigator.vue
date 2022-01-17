@@ -72,8 +72,8 @@
       </ul>
     </template>
 
-    <SideNavigator-CategoryHeader title="Other Topics" category-name="other" icon="stream" />
-    <template v-if="activeCategory === 'other'">
+    <SideNavigator-CategoryHeader title="Other Topics" category-name="misc" icon="stream" />
+    <template v-if="activeCategory === 'misc'">
       <ul>
         <li>
           <nuxt-link to="/misc/coming-soon">

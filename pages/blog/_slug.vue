@@ -1,32 +1,24 @@
 <template>
-  <article>
+  <page>
     <h1>{{ page.title }}</h1>
     <nuxt-content :document="page" />
-  </article>
+  </page>
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
+import ContentPageMixin from '@/mixins/ContentPageMixin'
 
 export default {
+  mixins: [ContentPageMixin],
+
   async asyncData ({ $content, params }) {
-    const page = await $content(`blog/${params.slug}`).fetch()
+    const contentType = 'blog'
+    const page = await $content(`${contentType}/${params.slug}`).fetch()
 
     return {
-      page
+      page,
+      contentType
     }
-  },
-
-  computed: mapState('side-navigator', ['activeCategory']),
-
-  mounted () {
-    if (this.activeCategory !== 'blog') {
-      this.setActiveCategory('blog')
-    }
-
-    new this.$statistics.HitCounter(`${this.page.title} Viewed`).publish()
-  },
-
-  methods: mapActions('side-navigator', ['setActiveCategory'])
+  }
 }
 </script>

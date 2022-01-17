@@ -1,7 +1,7 @@
 <template>
   <button type="button" @click="setActiveCategory(categoryName)">
     <h4>
-      <font-awesome-icon :icon="icon" />
+      <font-awesome-icon :icon="icon" class="fa-fw" />
       {{ title }}
     </h4>
     <font-awesome-icon icon="chevron-down" />

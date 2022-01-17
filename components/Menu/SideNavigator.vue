@@ -2,6 +2,22 @@
   <div class="c-sideNavigator" :class="{ 'c-sideNavigator--visible' : isVisible}">
     <Common-LinkButton text="Submit a Ticket" destination="/misc/coming-soon" />
 
+    <SideNavigator-CategoryHeader title="Product Links" category-name="links" icon="globe" />
+    <template v-if="activeCategory === 'links'">
+      <ul>
+        <li>
+          <a href="https://www.micro-stat.com">
+            Go to Homepage
+          </a>
+        </li>
+        <li>
+          <a href="https://www.portal.micro-stat.com">
+            Go to Dashboard
+          </a>
+        </li>
+      </ul>
+    </template>
+
     <SideNavigator-CategoryHeader title="Knowledgebase" category-name="knowledgebase" icon="book" />
     <template v-if="activeCategory === 'knowledgebase'">
       <h5>Integrate</h5>

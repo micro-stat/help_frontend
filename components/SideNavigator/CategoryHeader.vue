@@ -41,7 +41,6 @@ button {
   margin: 0;
   margin-bottom: 10px;
   border-bottom: 1px solid $color-4;
-  cursor: pointer;
   text-align: left;
 }
 

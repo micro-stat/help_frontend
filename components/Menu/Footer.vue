@@ -1,8 +1,8 @@
 <template>
   <div class="c-footer">
     <div class="c-footer-inner">
-      <a href="https://www.micro-stat.com">
-        <img class="c-footer-logo" src="~/static/logo.png" width="217" height="60" alt="Site Logo">
+      <a href="https://www.micro-stat.com" class="c-footer-logo">
+        <img src="~/static/logo.png" width="217" height="60" alt="Site Logo">
       </a>
 
       <div class="c-footer-linksWrapper">
@@ -55,7 +55,6 @@
 <style scoped lang="scss">
 .c-footer {
   position: relative;
-  padding: 10px 20px;
   background-color: #301c6d;
 }
 
@@ -65,11 +64,14 @@
 }
 
 .c-footer-inner {
-  min-height: 400px;
   width: 1200px;
-  padding: 40px 10px;
+  padding: 60px 10px;
   max-width: 90vw;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding: 50px 10px;
+  }
 }
 
 .c-footer-linksWrapper {
@@ -77,7 +79,6 @@
   flex-direction: row;
   padding: 40px 10px;
   border-top: 1px solid #6947D1;
-  max-width: 90vw;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -85,7 +86,7 @@
 }
 
 .c-footer-category {
-  flex: 1 1;
+  flex: 1;
 
   @media (max-width: 768px) {
     margin-bottom: 30px;
@@ -94,29 +95,17 @@
   svg {
     margin-right: 5px;
   }
+}
 
-  a, button {
-    display: block;
-    margin: 10px;
-    text-decoration: none;
+a {
+  margin: 10px;
 
-    @media (max-width: 768px) {
-      margin: 10px 30px;
-    }
-
-    &:hover {
-      text-decoration: underline;
-    }
+  @media (max-width: 768px) {
+    margin: 10px 30px;
   }
 }
 
-button {
-  background-color: transparent;
-  border: 0;
-  color: white;
-  font-family: "Quicksand", "sans-serif";
-  font-size: 1rem;
-  padding: 0;
-  cursor: pointer;
+.c-footer-logo {
+  margin: 0;
 }
 </style>

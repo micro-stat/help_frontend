@@ -50,17 +50,6 @@ export default {
     display: flex;
     align-items: center;
     height: 50px;
-
-    a {
-      text-decoration: none;
-      margin-right: 30px;
-      padding: 10px;
-      cursor: pointer;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
   }
 }
 

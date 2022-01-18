@@ -21,7 +21,7 @@ export const actions = {
     }
   },
 
-  setVisibility: ({ state, commit }, isVisible) => {
+  setVisibility: ({ commit }, isVisible) => {
     commit('setVisibility', isVisible)
   }
 }

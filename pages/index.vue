@@ -6,8 +6,12 @@
 </template>
 
 <script>
+import ContentPageMixin from '@/mixins/ContentPageMixin'
+
 export default {
-  async asyncData ({ $content, params }) {
+  mixins: [ContentPageMixin],
+
+  async asyncData ({ $content }) {
     const page = await $content('index').fetch()
 
     return {

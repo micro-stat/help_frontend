@@ -68,7 +68,7 @@
         </li>
       </ul>
 
-      <h4>Customise</h4>
+      <h5>Customise</h5>
       <ul>
         <li>
           <nuxt-link to="/knowledgebase/configure-organisation">
@@ -151,13 +151,7 @@ export default {
 }
 
 a {
-  display: block;
   padding: 2px 5px;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 ul {
@@ -167,9 +161,5 @@ ul {
   li {
     margin-bottom: 0;
   }
-}
-
-h5 {
-  margin-bottom: 5px;
 }
 </style>

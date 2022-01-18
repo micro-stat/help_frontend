@@ -1,7 +1,9 @@
 <template>
   <div class="c-footer">
     <div class="c-footer-inner">
-      <img class="c-footer-logo" src="~/static/logo.png" width="217" height="60" alt="Site Logo">
+      <a href="https://www.micro-stat.com">
+        <img class="c-footer-logo" src="~/static/logo.png" width="217" height="60" alt="Site Logo">
+      </a>
 
       <div class="c-footer-linksWrapper">
         <div class="c-footer-category">
@@ -10,37 +12,40 @@
             <span>Product</span>
           </h4>
 
-          <a href="https://portal.micro-stat.com?getStarted=true">
-            Get Started
-          </a>
-          <a href="https://portal.micro-stat.com">
-            Sign In
-          </a>
-
-          <a href="https://www.micro-stat.com/features">Features</a>
+          <a href="https://www.micro-stat.com">Homepage</a>
           <a href="https://www.micro-stat.com/pricing">Pricing</a>
-          <nuxt-link to="/knowledgebase/integrations">Integrations</nuxt-link>
         </div>
 
         <div class="c-footer-category">
           <h4>
-            <font-awesome-icon
-              :icon="['fas', 'building']" />
+            <font-awesome-icon :icon="['fas', 'tachometer-alt']" />
+            <span>Dashboard</span>
+          </h4>
+
+          <a href="https://portal.micro-stat.com?getStarted=true">Get Started</a>
+          <a href="https://portal.micro-stat.com">Sign In</a>
+          <a href="https://portal.micro-stat.com/tutorial">Dashboard</a>
+        </div>
+
+        <div class="c-footer-category">
+          <h4>
+            <font-awesome-icon :icon="['fas', 'building']" />
             <span>Company</span>
           </h4>
-          <a href="https://www.micro-stat.com/about-us">About Us</a>
+
           <a href="https://github.com/micro-stat">Github</a>
-          <nuxt-link to="blog/index">Blog Posts</nuxt-link>
+          <nuxt-link to="https://www.help.micro-stat.com/blog/index">Blog Posts</nuxt-link>
         </div>
 
         <div class="c-footer-category">
           <h4>
-            <font-awesome-icon
-              :icon="['fas', 'life-ring']" />
+            <font-awesome-icon :icon="['fas', 'life-ring']" />
             <span>Support</span>
           </h4>
-          <nuxt-link to="misc/faq">FAQ</nuxt-link>
-          <nuxt-link to="/">Help Centre</nuxt-link>
+
+          <a href="https://www.help.micro-stat.com">Help Center</a>
+          <a href="https://www.help.micro-stat.com/knowledgebase/integrations">Knowledgebase</a>
+          <a href="https://www.help.micro-stat.com/misc/submit-ticket">Submit a Ticket</a>
         </div>
       </div>
     </div>

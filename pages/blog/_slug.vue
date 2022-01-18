@@ -1,8 +1,8 @@
 <template>
-  <page>
+  <div>
     <h1>{{ page.title }}</h1>
     <nuxt-content :document="page" />
-  </page>
+  </div>
 </template>
 
 <script>

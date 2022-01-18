@@ -40,7 +40,6 @@ button {
   padding: 0;
   margin: 0;
   margin-bottom: 10px;
-  padding-bottom: 5px;
   border-bottom: 1px solid $color-4;
   cursor: pointer;
   text-align: left;
@@ -48,6 +47,7 @@ button {
 
 h4 {
   flex-grow: 1;
+  margin-bottom: 10px;
 }
 
 svg {

@@ -131,7 +131,6 @@ export default {
 
 .c-sideNavigator {
   background-color: $color-2;
-  min-height: 400px;
   min-width: 350px;
   max-height: 800px;
   padding: 30px 30px;

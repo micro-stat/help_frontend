@@ -34,7 +34,7 @@
           </h4>
 
           <a href="https://github.com/micro-stat">Github</a>
-          <nuxt-link to="https://www.help.micro-stat.com/blog/index">Blog Posts</nuxt-link>
+          <a href="https://www.help.micro-stat.com/blog/index">Blog Posts</a>
         </div>
 
         <div class="c-footer-category">

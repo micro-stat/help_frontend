@@ -10,7 +10,12 @@
 @import '~/styles/variables.scss';
 
 .c-page {
-  background-color: $color-3
+  background-color: $color-3;
+  min-height: 750px;
+
+  @media (max-width: $width-ipad-air-landscape) {
+    min-height: 500px;
+  }
 }
 
 .c-page-inner {

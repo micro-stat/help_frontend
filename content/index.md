@@ -1,6 +1,6 @@
 ---
 title: Welcome to the Help Center
-description: 'Welcome to the micro stat Help Center, your source for knowledge and support.'
+description: 'Learn more about micro stat with our knowledgebase and support systems.'
 ---
 
 This is the place to learn more about micro stat, helping you to get the most out of it in your app.

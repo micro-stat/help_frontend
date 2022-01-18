@@ -60,5 +60,9 @@ export default {
 
   plugins: [
     '~/plugins/statistics.client.js'
-  ]
+  ],
+
+  sitemap: {
+    hostname: 'https://www.help.micro-stat.com'
+  }
 }

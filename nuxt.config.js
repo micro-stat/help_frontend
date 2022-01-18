@@ -39,7 +39,8 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     '@nuxt/content',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
   ],
 
   pwa: {

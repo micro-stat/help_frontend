@@ -64,6 +64,10 @@ ul, ol {
     color: white;
     text-shadow: none;
     max-width: calc(100vw - 470px);
+
+    @media (max-width: $width-ipad-air-portrait) {
+      max-width: 85vw;
+    }
   }
 }
 

@@ -30,5 +30,6 @@ export default {
   margin-bottom: 25px;
   padding: 15px 30px;
   text-align: center;
+  display: block;
 }
 </style>

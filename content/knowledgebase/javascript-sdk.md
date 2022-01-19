@@ -20,7 +20,7 @@ yarn add micro-stat
 ```
 import { Connection } from 'micro-stat';
 
-Connection.connect("https://micro-stat-functions.azurewebsites.net/api/ingest?dsn=<YOUR_DSN>");
+Connection.connect("<YOUR_DSN>");
 ```
 
 ### 3. Publish a Metric

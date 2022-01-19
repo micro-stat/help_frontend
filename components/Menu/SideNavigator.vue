@@ -104,6 +104,27 @@
       </ul>
     </template>
 
+    <SideNavigator-CategoryHeader title="Change logs" category-name="changelogs" icon="list-alt" />
+    <template v-if="activeCategory === 'changelogs'">
+      <ul>
+        <li>
+          <nuxt-link to="/changelogs/integration-api">
+            Integration API
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/changelogs/javascript-sdk">
+            Javascript Integration
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/changelogs/dashboard">
+            Admin Dashboard
+          </nuxt-link>
+        </li>
+      </ul>
+    </template>
+
     <SideNavigator-CategoryHeader title="Blog" category-name="blog" icon="rss" />
     <template v-if="activeCategory === 'blog'">
       <ul>

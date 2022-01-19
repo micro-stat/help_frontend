@@ -88,22 +88,6 @@
       </ul>
     </template>
 
-    <SideNavigator-CategoryHeader title="Other Topics" category-name="misc" icon="stream" />
-    <template v-if="activeCategory === 'misc'">
-      <ul>
-        <li>
-          <nuxt-link to="/misc/submit-ticket">
-            Submit a Ticket
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/misc/faq">
-            FAQ
-          </nuxt-link>
-        </li>
-      </ul>
-    </template>
-
     <SideNavigator-CategoryHeader title="Change logs" category-name="changelogs" icon="list-alt" />
     <template v-if="activeCategory === 'changelogs'">
       <ul>
@@ -120,6 +104,22 @@
         <li>
           <nuxt-link to="/changelogs/dashboard">
             Admin Dashboard
+          </nuxt-link>
+        </li>
+      </ul>
+    </template>
+
+    <SideNavigator-CategoryHeader title="Other Topics" category-name="misc" icon="stream" />
+    <template v-if="activeCategory === 'misc'">
+      <ul>
+        <li>
+          <nuxt-link to="/misc/submit-ticket">
+            Submit a Ticket
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/misc/faq">
+            FAQ
           </nuxt-link>
         </li>
       </ul>

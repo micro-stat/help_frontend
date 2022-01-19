@@ -98,6 +98,7 @@
 }
 
 a {
+  display: block;
   margin: 10px;
 
   @media (max-width: 768px) {

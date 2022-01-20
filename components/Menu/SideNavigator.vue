@@ -166,6 +166,8 @@ export default {
     left: 0;
     bottom: 0;
     z-index: 10;
+    overflow: auto;
+    max-height: unset;
 
     &.c-sideNavigator--visible {
       display: unset;

@@ -190,7 +190,7 @@ ul {
   margin-bottom: 20px;
 
   li {
-    margin-bottom: 0;
+    list-style-type:none;
   }
 }
 </style>

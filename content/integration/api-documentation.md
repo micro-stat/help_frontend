@@ -19,12 +19,15 @@ description: 'Learn how to interact directly with the micro stat API.'
 URI: https://api.micro-stat.com/ingest?dsn=<YOUR_DSN>
 ```
 
+## Method
+- The endpoint only accepts `POST` requests
+
 ## Form Body
 - When ingesting Data Points, send an array with each item specifying the following three mandatory properties below.
 
 ```
 [{
-  name: 'YOUR_METRIC_NAME', // Example: 'Number of Basket Items
+  name: 'YOUR_METRIC_NAME', // example: 'Number of Basket Items
   type: 'YOUR_METRIC_TYPE', // example: 'Counter'
   value: 'YOUR_DATA_POINT_VALUE' // example: 1
 }]

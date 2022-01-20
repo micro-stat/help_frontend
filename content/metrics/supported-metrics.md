@@ -55,4 +55,5 @@ There are a wide variety of metric types available, our aim is to make recording
 We are actively working on adding new metric types as we speak, these are some of the ideas we are working on right now.
 
 1. **Word Map**: The ability to pass a word as a metric value, and be able to represent which words are most frequently used.
+2. **Time Buckets**: The ability to create buckets of time ranges
 

@@ -39,20 +39,26 @@
       </ul>
     </template>
 
+    <SideNavigator-CategoryHeader title="Metrics" category-name="metrics" icon="chart-line" />
+    <template v-if="activeCategory === 'metrics'">
+      <ul>
+        <li>
+          <nuxt-link to="/metrics/what-are-metrics">
+            What are Metrics?
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/metrics/supported-metrics">
+            Supported Metric types
+          </nuxt-link>
+        </li>
+      </ul>
+    </template>
+
     <SideNavigator-CategoryHeader title="Knowledgebase" category-name="knowledgebase" icon="book" />
     <template v-if="activeCategory === 'knowledgebase'">
       <h5>Learn</h5>
       <ul>
-        <li>
-          <nuxt-link to="/knowledgebase/supported-metrics">
-            Supported Metric Types
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/knowledgebase/what-are-metrics">
-            What are Metrics?
-          </nuxt-link>
-        </li>
         <li>
           <nuxt-link to="/knowledgebase/configure-thresholds">
             Configure Thresholds

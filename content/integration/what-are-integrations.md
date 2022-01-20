@@ -22,6 +22,6 @@ description: 'Learn about what integrations are and which ones we have.'
 - If you want an integration in a technology we don't yet support, why not build it and share it with the community? Alternatively let us know and we will prioritise the most asked for features. 
 - If you can't see an integration you want, or simply prefer not to use one; feel free to use our API directly.
 
-1. **Javascript Applications** - [Learn More](/knowledgebase/javascript-sdk) - Including React, Vue, Angular and more
-2. **NodeJS Applications** - [Learn More](/knowledgebase/javascript-sdk) - Including NodeJS API's and serverless Lambda's
-3. **Other Technologies** - [Learn More](/knowledgebase/api-documentation) - Integrate directly with our API
+1. **Javascript Applications** - [Learn More](/integration/javascript-sdk) - Including React, Vue, Angular and more
+2. **NodeJS Applications** - [Learn More](/integration/javascript-sdk) - Including NodeJS API's and serverless Lambda's
+3. **Other Technologies** - [Learn More](/integration/api-documentation) - Integrate directly with our API

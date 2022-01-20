@@ -44,7 +44,7 @@
           </h4>
 
           <a href="https://www.help.micro-stat.com">Help Center</a>
-          <a href="https://www.help.micro-stat.com/knowledgebase/integrations">Knowledgebase</a>
+          <a href="https://www.help.micro-stat.com/knowledgebase/supported-metrics">Knowledgebase</a>
           <a href="https://www.help.micro-stat.com/misc/submit-ticket">Submit a Ticket</a>
         </div>
       </div>

@@ -15,3 +15,12 @@
     display: flex !important;
   }
 }
+
+.u-scroll--disabled {
+  overflow: initial;
+
+  @media (max-width: $width-ipad-air-portrait) {
+    height: 100vh;
+    overflow: hidden;
+  }
+}

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :class="{ 'u-scroll--disabled' : isVisible }">
     <Menu-Header />
 
     <Common-Page>

@@ -47,11 +47,19 @@ a {
   }
 }
 
+.nuxt-content-container a {
+  text-decoration: underline;
+}
+
 ul, ol {
   margin-bottom: 20px;
 
   li {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+
+    p {
+      margin-bottom: 5px;
+    }
   }
 }
 

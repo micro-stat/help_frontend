@@ -1,5 +1,5 @@
 ---
-title: Interact with the API
+title: Ingestion API Documentation
 description: 'Learn how to interact directly with the micro stat API.'
 ---
 

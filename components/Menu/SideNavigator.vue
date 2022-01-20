@@ -18,27 +18,29 @@
       </ul>
     </template>
 
-    <SideNavigator-CategoryHeader title="Knowledgebase" category-name="knowledgebase" icon="book" />
-    <template v-if="activeCategory === 'knowledgebase'">
-      <h5>Integrate</h5>
+    <SideNavigator-CategoryHeader title="Integration Guides" category-name="integration" icon="random" />
+    <template v-if="activeCategory === 'integration'">
       <ul>
         <li>
-          <nuxt-link to="/knowledgebase/integrations">
+          <nuxt-link to="/integration/what-are-integrations">
             What are integrations?
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/knowledgebase/api-documentation">
-            Interact with the API
+          <nuxt-link to="/integration/api-documentation">
+            Ingestion API Documentation
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/knowledgebase/javascript-sdk">
+          <nuxt-link to="/integration/javascript-sdk">
             Use the Javascript SDK
           </nuxt-link>
         </li>
       </ul>
+    </template>
 
+    <SideNavigator-CategoryHeader title="Knowledgebase" category-name="knowledgebase" icon="book" />
+    <template v-if="activeCategory === 'knowledgebase'">
       <h5>Learn</h5>
       <ul>
         <li>
@@ -88,22 +90,22 @@
       </ul>
     </template>
 
-    <SideNavigator-CategoryHeader title="Change logs" category-name="changelogs" icon="list-alt" />
+    <SideNavigator-CategoryHeader title="Changelogs" category-name="changelogs" icon="list-alt" />
     <template v-if="activeCategory === 'changelogs'">
       <ul>
         <li>
           <nuxt-link to="/changelogs/integration-api">
-            Integration API
+            Ingestion API
           </nuxt-link>
         </li>
         <li>
           <nuxt-link to="/changelogs/javascript-sdk">
-            Javascript Integration
+            Javascript SDK
           </nuxt-link>
         </li>
         <li>
           <nuxt-link to="/changelogs/dashboard">
-            Admin Dashboard
+            Dashboard Features
           </nuxt-link>
         </li>
       </ul>

@@ -47,6 +47,10 @@ a {
   }
 }
 
+.nuxt-content-container a {
+  text-decoration: underline;
+}
+
 ul, ol {
   margin-bottom: 20px;
 

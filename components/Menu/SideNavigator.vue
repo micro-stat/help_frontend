@@ -96,6 +96,17 @@
       </ul>
     </template>
 
+    <SideNavigator-CategoryHeader title="Explained" category-name="explained" icon="lightbulb" />
+    <template v-if="activeCategory === 'explained'">
+      <ul>
+        <li>
+          <nuxt-link to="/explained/busy-metrics">
+            Busy Metrics
+          </nuxt-link>
+        </li>
+      </ul>
+    </template>
+
     <SideNavigator-CategoryHeader title="Changelogs" category-name="changelogs" icon="list-alt" />
     <template v-if="activeCategory === 'changelogs'">
       <ul>

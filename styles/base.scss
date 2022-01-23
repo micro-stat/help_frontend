@@ -47,6 +47,13 @@ a {
   }
 }
 
+.nuxt-content-container {
+  img {
+    max-width: 100%;
+    border: 1px solid $color-1;
+  }
+}
+
 .nuxt-content-container a {
   text-decoration: underline;
 }

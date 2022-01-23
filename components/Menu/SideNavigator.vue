@@ -104,6 +104,11 @@
             Busy Metrics
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/explained/all-data-points">
+            All Data Points
+          </nuxt-link>
+        </li>
       </ul>
     </template>
 

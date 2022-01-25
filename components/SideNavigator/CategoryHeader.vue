@@ -42,6 +42,10 @@ button {
   margin-bottom: 10px;
   border-bottom: 1px solid $color-4;
   text-align: left;
+
+  &:last-child {
+    border-bottom: 0;
+  }
 }
 
 h4 {

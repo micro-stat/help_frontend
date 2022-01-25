@@ -81,7 +81,7 @@ input {
   color: white;
   width: 100%;
   padding: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   border: 0;
   outline: none;
   font-size: 1rem;

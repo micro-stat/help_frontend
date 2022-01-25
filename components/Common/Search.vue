@@ -27,6 +27,12 @@ export default {
       }
 
       const matchedArticles = [
+        ...await this.$content('metrics')
+          .only(['title', 'slug'])
+          .sortBy('createdAt', 'asc')
+          .limit(12)
+          .search(query)
+          .fetch(),
         ...await this.$content('explained')
           .only(['title', 'slug'])
           .sortBy('createdAt', 'asc')
@@ -45,19 +51,13 @@ export default {
           .limit(12)
           .search(query)
           .fetch(),
-        ...await this.$content('blog')
-          .only(['title', 'slug'])
-          .sortBy('createdAt', 'asc')
-          .limit(12)
-          .search(query)
-          .fetch(),
-        ...await this.$content('metrics')
-          .only(['title', 'slug'])
-          .sortBy('createdAt', 'asc')
-          .limit(12)
-          .search(query)
-          .fetch(),
         ...await this.$content('misc')
+          .only(['title', 'slug'])
+          .sortBy('createdAt', 'asc')
+          .limit(12)
+          .search(query)
+          .fetch(),
+        ...await this.$content('blog')
           .only(['title', 'slug'])
           .sortBy('createdAt', 'asc')
           .limit(12)

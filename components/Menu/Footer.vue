@@ -33,8 +33,9 @@
             <span>Company</span>
           </h4>
 
-          <a href="https://github.com/micro-stat">Github</a>
-          <a href="https://www.help.micro-stat.com/blog/index">Blog Posts</a>
+          <a href="https://github.com/micro-stat" target="_blank">Github</a>
+          <a href="https://www.facebook.com/Micro-Stat-110671961521359" target="_blank">Facebook</a>
+          <a href="https://www.help.micro-stat.com/blog/index" target="_blank">Blog Posts</a>
         </div>
 
         <div class="c-footer-category">

@@ -8,6 +8,9 @@ description: 'Find out about the recent changes to our javascript integration.'
 - This article shows the changes that have been made to the open source Javascript integration in each version.
 - The Javascript SDK uses semver for version numbers.
 
+## 0.8.0
+- Added support for the new "Word Web" metric type
+
 ## 0.7.0
 - Simplify connection by only requiring the DSN, not the URL to the API
 

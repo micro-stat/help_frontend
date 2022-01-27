@@ -13,5 +13,8 @@ description: 'Find out about the recent changes to the micro stat Dashboard.'
 ## Recent Changes
 - Below we list the important changes we have made to the Admin Dashboard since its public release.
 
+#### 27/01/2022
+- Added basic support for the new "Word Web" metric type
+
 #### 20/01/2022
 - Added links throughout the Dashboard to knowledgebase articles so users can learn more about features.

@@ -51,9 +51,25 @@ There are a wide variety of metric types available, our aim is to make recording
   
 </details>
 
+<details>
+<summary>Word Web</summary>
+
+#### Description
+- A Word Web is a great way to break down a series of words into usable insight
+- A Data Point is created every time you publish the metric, the value can be either a string or numberical value which represents something to you in your app.
+- Our tailored visualisations show you which values are most popular over a variety of time ranges.
+
+#### Example Use Cases
+1. To record which are the most popular articles viewed on your blog
+2. To create buckets for certain events in your code
+3. To record popular search queries or inputs
+  
+</details>
+
 ## Under development
 We are actively working on adding new metric types as we speak, these are some of the ideas we are working on right now.
 
 1. **Word Map**: The ability to pass a word as a metric value, and be able to represent which words are most frequently used.
 2. **Time Buckets**: The ability to create buckets of time ranges
+3. **Currency**: The ability to visualise currency based values
 

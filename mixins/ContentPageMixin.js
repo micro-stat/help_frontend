@@ -21,7 +21,7 @@ export default {
       this.setActiveCategory(this.contentType)
     }
 
-    new this.$statistics.HitCounter(`${this.page.title} Viewed`).publish()
+    new this.$statistics.WordWeb('Article Viewed', this.page.title).publish()
   },
 
   methods: mapActions('side-navigator', ['setActiveCategory'])

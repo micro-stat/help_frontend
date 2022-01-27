@@ -6430,10 +6430,10 @@ merge2@^1.3.0, merge2@^1.4.1:
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-micro-stat@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/micro-stat/-/micro-stat-0.7.0.tgz#9669591f397c9574d4f842e6ffde436a9f8bc5bb"
-  integrity sha512-M5XPYr6Ge4soe117ySXh6vfeh50dR2wfyH6VMfK87vryRG3nfUehHrGBUgKQcw3COpLRVfe6b2NC6JQvpgxfbg==
+micro-stat@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/micro-stat/-/micro-stat-0.8.0.tgz#7f639aa0a88fc58790ed11ea3c5f2f479df83b46"
+  integrity sha512-KduHGVSrnbNnUOtbSurIX9BnVYq+QvN9Nf351Jff4xjSZs3ETNBOFuADejF34dl8B4t6NQpVtojFDdD5cXPdvw==
   dependencies:
     axios "0.23.0"
     web-vitals "2.1.2"

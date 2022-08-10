@@ -14,6 +14,7 @@
 
           <a href="https://www.micro-stat.com">Homepage</a>
           <a href="https://www.micro-stat.com/pricing">Pricing</a>
+          <a href="https://www.micro-stat.com/web-vitals">Web Vitals</a>
         </div>
 
         <div class="c-footer-category">

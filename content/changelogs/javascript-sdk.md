@@ -8,6 +8,10 @@ description: 'Find out about the recent changes to our javascript integration.'
 - This article shows the changes that have been made to the open source Javascript integration in each version.
 - The Javascript SDK uses semver for version numbers.
 
+## 0.10.0
+- Ability to disable publication of metrics
+- Non published metrics are output to the console
+
 ## 0.9.0
 - Ability to override options when connecting your DSN
 - Ability to turn off automatic web vitals capture when desired

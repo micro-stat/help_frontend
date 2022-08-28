@@ -1,25 +1,8 @@
 <template>
   <div class="c-sideNavigator" :class="{ 'c-sideNavigator--visible' : isVisible}">
     <Common-LinkButton text="Submit a Ticket" destination="/misc/submit-ticket" />
-    <Common-Search @has-results="toggleUI" />
 
     <template v-if="showCategories">
-      <SideNavigator-CategoryHeader title="Product Links" category-name="links" icon="globe" />
-      <template v-if="activeCategory === 'links'">
-        <ul>
-          <li>
-            <a href="https://www.micro-stat.com">
-              Go to Homepage
-            </a>
-          </li>
-          <li>
-            <a href="https://www.portal.micro-stat.com">
-              Go to Dashboard
-            </a>
-          </li>
-        </ul>
-      </template>
-
       <SideNavigator-CategoryHeader title="Integration Guides" category-name="integration" icon="random" />
       <template v-if="activeCategory === 'integration'">
         <ul>

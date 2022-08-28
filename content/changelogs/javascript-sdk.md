@@ -8,6 +8,13 @@ description: 'Find out about the recent changes to our javascript integration.'
 - This article shows the changes that have been made to the open source Javascript integration in each version.
 - The Javascript SDK uses semver for version numbers.
 
+## 0.9.0
+- Ability to override options when connecting your DSN
+- Ability to turn off automatic web vitals capture when desired
+
+## 0.8.1
+- Maintenance fix for new regeneratorRuntime issue while running tests locally
+
 ## 0.8.0
 - Added support for the new "Word Web" metric type
 

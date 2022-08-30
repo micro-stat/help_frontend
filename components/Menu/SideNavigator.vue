@@ -178,6 +178,7 @@ export default {
   max-height: 900px;
   padding: 30px 30px;
   overflow-y: auto;
+  font-size: 1.1rem;
 
   @media (max-width: $width-ipad-air-portrait) {
     display: none;

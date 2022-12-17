@@ -36,5 +36,9 @@
   "dependencies": {
     "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sitemap": "^2.4.0"
+  },
+  "volta": {
+    "node": "14.21.2",
+    "yarn": "1.22.0"
   }
 }

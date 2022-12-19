@@ -207,6 +207,7 @@ ul {
 
   li {
     list-style-type:none;
+    font-size: 1rem;
   }
 }
 </style>

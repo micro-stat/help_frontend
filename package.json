@@ -28,7 +28,7 @@
     "eslint-plugin-nuxt": "3.1.0",
     "eslint-plugin-vue": "8.2.0",
     "micro-stat": "0.10.0",
-    "nuxt": "2.15.8",
+    "nuxt": "3.4.3",
     "sass": "1.46.0",
     "sass-loader": "10",
     "vue": "2.6.14",
